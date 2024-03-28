@@ -11,6 +11,13 @@
  
  Scripts run with python 3.8
 
+ To ensure that all script works, necessitates modules: 
+ - pysam
+ - pandas
+ - tqdm
+ - argparse
+ - subprocess
+
 ### (1) Filtering SNPs with excess heterozygotes
 Example with a threshold at 80% (output is  a vcf file named output.vcf)
 
