@@ -17,6 +17,7 @@
  - tqdm
  - argparse
  - subprocess
+ - itertools
 
 ### (1) Filtering SNPs with excess heterozygotes
 Example with a threshold at 80% (output is  a vcf file named output.vcf)
