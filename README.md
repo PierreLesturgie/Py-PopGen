@@ -1,4 +1,4 @@
-# Genomics tools
+# Genomics tools with python
 ----------------------
 #### Author: Pierre Lesturgie
 ----------------------
