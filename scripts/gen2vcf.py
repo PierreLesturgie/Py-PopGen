@@ -16,7 +16,7 @@ ap.add_argument("-i", "--input", required=True,
 ap.add_argument("-o", "--output", required=True,
                 help="output name for vcf")
 ap.add_argument("-C", "--chr_info", required=True,
-   help="bin bounds : <nchr> <len>", nargs='+', type=int)
+   help="number of chromosome and length simulated : <nchr> <len>", nargs='+', type=int)
 
 args = vars(ap.parse_args())
 

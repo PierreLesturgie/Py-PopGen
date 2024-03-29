@@ -103,4 +103,30 @@ List of arguments:
 - --maf : min minor allele frequency
 - --output : output name
 
+### (6) Compute Unphased Extended Haplotype using r2
+Example computing r2 between one SNP and SNPs apart from 10000, 20000 , 30000, 40000 and 50000 in a window of 10000 maf minor than 0.05
+
+	python ExtHap.py --input input.vcf.gz --bin 10000 50000 10000 --window 10000 --runs 1 --buffer 1000 --maf 0.05
+
+List of arguments: 
+- --input : input vcf file **must be compressed with bgzip and indexed with tabix (or uncompressed)**
+- --bin : bin bounds : <from> <to> <by>
+- --buffer : buffer size
+- --maf : min minor allele frequency
+- --output : output name
+- --window : window size
+- --bootstrap : number of resampling
+- --runs : number of runs per window
+- --chr : chromosome
+- --region : region bounds : <from> <to>
+
+
+### (7) Converting fastsimcoal2 simulated genotype table to VCF
+Example converting FSC2 .GEN file from simulation of 10 contigs of 10 Mb to vcf
+	python gen2vcf.py --input input.gen --output out.vcf --chr_info 10 10000000
+
+List of arguments: 
+- --input : input .gen file
+- --output : output name for vcf
+- --chr_info : number of chromosome and length simulated : <nchr> <len>
 

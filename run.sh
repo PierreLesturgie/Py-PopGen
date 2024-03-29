@@ -45,3 +45,13 @@ python SFS.py --input input.vcf.gz --folded --output sliding_folded_S1.sfs --chr
 # --> 5. Computes linkage disequilibrium (r2 score) between SNPs
 echo "computing LD between SNPs appart from 10000 bp (with a buffer of 1000bp) and discarding SNPs with a maf minor than 0.05"
 python LD.py --input input.vcf.gz --output LD --bin 10000 --buffer 1000 --maf 0.05
+
+# --> 6. Compute Unphased Extended Haplotype using r2
+echo "computing r2 between one SNP and SNPs apart from 10000, 20000 , 30000, 40000 and 50000 in a window of 10000 maf minor than 0.05"
+python ExtHap.py --input input.vcf.gz --bin 10000 50000 10000 --window 10000 --runs 1 --buffer 1000 --maf 0.05
+
+# --> 7. Converting fastsimcoal2 simulated genotype table to VCF
+echo "Converts FSC2 .GEN file from simulation of 10 contigs of 10 Mb to vcf"
+python gen2vcf.py --input input.gen --output out.vcf --chr_info 10 10000000
+
+
