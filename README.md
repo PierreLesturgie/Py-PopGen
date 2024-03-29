@@ -24,6 +24,9 @@ Example with a threshold at 80% (output is  a vcf file named output.vcf)
 
 	python HET.py --input input.vcf.gz -H 0.8 -O output 
 
+List of arguments: 
+- 
+
 ### (2) Binning the vcf (for linkage disequilibrium)
 There are two ways of binning: 
 #### 1 - By regions, i.e., only keeps regions of <region> bp distant of <bin> from each other
