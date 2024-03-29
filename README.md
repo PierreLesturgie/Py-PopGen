@@ -1,6 +1,7 @@
 # Genomics tools with python
 ----------------------
 #### Author: Pierre Lesturgie
+#### Citation: Lesturgie, P. (2024). Py-PopGen. Available at: https://github.com/plesturgie/Py-PopGen. Last accessed XXX.
 ----------------------
 
 ## Analyse and filter genomics data using commandline python scripts
