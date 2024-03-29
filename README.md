@@ -123,6 +123,7 @@ List of arguments:
 
 ### (7) Converting fastsimcoal2 simulated genotype table to VCF
 Example converting FSC2 .GEN file from simulation of 10 contigs of 10 Mb to vcf
+
 	python gen2vcf.py --input input.gen --output out.vcf --chr_info 10 10000000
 
 List of arguments: 
