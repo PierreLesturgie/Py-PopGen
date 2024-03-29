@@ -91,7 +91,7 @@ List of arguments:
 - --output : output name
 
 ### (5) Linkage Disequilibrium
-Example computing LD between SNPs appart from 10000 bp (with a buffer of 1000bp) and discarding SNPs with a maf minor than 0.05
+Example computing LD between SNPs appart from 10000 bp (with a buffer of 1000bp) and discarding SNPs with a maf minor than 0.05. Outputs a file named LD.csv
 
 
 	python LD.py --input input.vcf.gz --output LD --bin 10000 --buffer 1000 --maf 0.05
