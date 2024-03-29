@@ -22,10 +22,14 @@
 ### (1) Filtering SNPs with excess heterozygotes
 Example with a threshold at 80% (output is  a vcf file named output.vcf)
 
-	python HET.py --input input.vcf.gz -H 0.8 -O output 
+	python HET.py --input input.vcf.gz --het 0.8 --output output 
 
 List of arguments: 
-- --input: 
+- --input : input vcf file **must be compressed with bgzip and indexed with tabix (or uncompressed)**
+- --het : threshold for heterozygote frequency (default is 0.8)
+- --output : output prefix
+- --chr : chromosome
+- --write_discarded : write discarded SNPs (default is False)
 
 ### (2) Binning the vcf (for linkage disequilibrium)
 There are two ways of binning: 
