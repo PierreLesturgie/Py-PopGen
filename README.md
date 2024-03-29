@@ -2,7 +2,7 @@
 ---
 #### Author: Pierre Lesturgie
 #### Example citation: Lesturgie, P. (2024). *Py-PopGen*. Available at: https://github.com/plesturgie/Py-PopGen. Last accessed XXX.
---
+---
 
 ## Analyse and filter genomics data using commandline python scripts
  
