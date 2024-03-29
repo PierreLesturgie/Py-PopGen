@@ -42,3 +42,6 @@ python SFS.py --input input.vcf.gz --folded --output folded.sfs
 echo "computing folded sfs in sliding windows (1Mb windows, 500kb jump) on the first contig and including monomorphic sites in the output"
 python SFS.py --input input.vcf.gz --folded --output sliding_folded_S1.sfs --chr SUPER_1 --sliding_window --window 1000000 --jump 500000
 
+# --> 5. Computes linkage disequilibrium (r2 score) between SNPs
+echo "computing LD between SNPs appart from 10000 bp (with a buffer of 1000bp) and discarding SNPs with a maf minor than 0.05"
+python LD.py --input input.vcf.gz --output LD --bin 10000 --buffer 1000 --maf 0.05

@@ -89,3 +89,18 @@ List of arguments:
 - --end : end of region
 - --het : threshold for heterozygote frequency filtering (default is 1.0, i.e., no filtering)
 - --output : output name
+
+### (5) Linkage Disequilibrium
+Example computing LD between SNPs appart from 10000 bp (with a buffer of 1000bp) and discarding SNPs with a maf minor than 0.05
+
+
+	python LD.py --input input.vcf.gz --output LD --bin 10000 --buffer 1000 --maf 0.05
+
+List of arguments: 
+- --input : input vcf file **must be compressed with bgzip and indexed with tabix (or uncompressed)**
+- --bin : bin size
+- --buffer : buffer size
+- --maf : min minor allele frequency
+- --output : output name
+
+
