@@ -9,7 +9,7 @@
  
  For each script, all arguments are indicated using the --help argument.  
  
- Scripts run with python 3.8
+ Scripts run with python 3 (lastly tested with 3.10)
 
  To ensure that all script works, necessitates modules: 
  - pysam
