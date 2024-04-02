@@ -1,6 +1,6 @@
 # Genomics tools with python
 ---
-#### Author: Pierre Lesturgie
+#### Author: Pierre Lesturgie (pierrelesturgie@outlook.fr)
 #### Example citation: Lesturgie, P. (2024). *Py-PopGen*. Available at: https://github.com/plesturgie/Py-PopGen. Last accessed XXX.
 ---
 
