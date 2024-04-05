@@ -3,7 +3,7 @@
 ### Author: Pierre Lesturgie (pierrelesturgie@outlook.fr)
 These scripts were developed and used (for the most part) in: 
 
-Lesturgie, P., Denton, J., Yang, L., Corrigan, S., Kneebone, J., Laso-Jadart, R., Lynghammar, A., Fedrigo, O., Mona, S., Naylor, GJP. (**2024**). A Size-determining Supergene Hampers a Vulnerable Population Recovery. *In Review in Nature Communications*
+Lesturgie, P., Denton, J., Yang, L., Corrigan, S., Kneebone, J., Laso-Jadart, R., Lynghammar, A., Fedrigo, O., Mona, S., Naylor, GJP. (***In Review***) A Size-determining Supergene Hampers a Vulnerable Population Recovery. 
 
 #### Please cite it if using the scripts.
 
