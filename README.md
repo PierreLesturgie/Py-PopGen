@@ -4,7 +4,8 @@
 
 These scripts were developed and used (for the most part) in: 
 
-Lesturgie, P., Denton, J., Yang, L., Corrigan, S., Kneebone, J., Laso-Jadart, R., Lynghammar, A., Fedrigo, O., Mona, S., Naylor, GJP. (***In Review***). A Size-determining Supergene Hampers a Vulnerable Population Recovery. Preprint available at Research Square https://doi.org/10.21203/rs.3.rs-4107339/v1. 
+Lesturgie, P., Denton, J., Yang, L., Corrigan, S., Kneebone, J., Laso-Jadart, R., Lynghammar, A., Fedrigo, O., Mona, S., Naylor, GJP. (**2025**). A Size-determining Supergene Hampers a Vulnerable Population Recovery. ***Nature Communications***, 16(1), 1096. https://doi.org/10.1038/s41467-025-56126-z.
+
 
 #### Please cite it if using the scripts.
 
